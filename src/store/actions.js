@@ -8,6 +8,9 @@ export const loadData = ({commit}) =>{
       const stocks = data.stocks;
       const funds = data.funds;
       const stockPortfolio = data.stockPortfolio;
+      console.log('stocks: ', stocks);
+      console.log('funds: ', funds);
+      console.log('stockPortfolio: ', stockPortfolio);
 
       const portfolio = {
         stockPortfolio,
